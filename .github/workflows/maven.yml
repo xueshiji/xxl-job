@@ -19,4 +19,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: xxl-job-admin.jar
-        path: target/*.jar
+        path: xxl-job-admin/target/*.jar
