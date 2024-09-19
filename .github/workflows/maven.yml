@@ -16,7 +16,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Upload JAR Artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: xxl-job-admin.jar
         path: target/*.jar
